@@ -6,7 +6,7 @@
     <title>GifTastic-Homework</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
-    <script src="main.js"></script>
+    <script src="./assets/javascript/app.js"></script>
 
          <!-- Added a link to Bootstrap-->
          <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
@@ -16,14 +16,18 @@
 </head>
 <body>
 
-
+<div id="allButtons">
+    <button class="giphyButtons" data-emotions="happy">happy</button>
+    <button class="giphyButtons" data-emotions="sad">sad</button>
+</div>
 
     <form id="search">
         <label for="searchLabels">SEARCH HERE!</labels>
         <input type="text" id="search-input"><br>
         <input type="submit" value="submit">
     </form>
-    
+<div id="gifSearches"></div>    
+
 
 
 </body>
